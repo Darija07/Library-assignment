@@ -32,8 +32,11 @@ function submitForm(e) {
 }
 
 //upon submit open form 
-const addNewBook = document.getElementById('addbook')
-addNewBook.addEventListener('submit', submitForm)
+    document.addEventListener('DOMContentLoaded', function() {
+        const addNewBook = document.getElementById('addbook')
+        addNewBook.addEventListener('submit', submitForm)
+        });
+
 
 
 

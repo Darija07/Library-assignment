@@ -19,4 +19,4 @@ function addToLibrary() {
     bookLibrary.push(newBook)
 }
 
-export { bookLibrary, addToLibrary }
+export { bookLibrary, addToLibrary, getUserInput }
